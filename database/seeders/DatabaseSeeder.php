@@ -18,6 +18,13 @@ class DatabaseSeeder extends Seeder
             'role' => 'admin'
         ]);
 
+        User::create([
+            'name' => 'Admin Test',
+            'email' => 'admin@test.com',
+            'password' => bcrypt('admin123'),
+            'role' => 'admin'
+        ]);
+
         // Create Supervisor User
         User::create([
             'name' => 'Supervisor',

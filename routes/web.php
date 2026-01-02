@@ -11,7 +11,7 @@ use App\Http\Controllers\LaporanController;
 
 // Authentication Routes
 Route::get('/', [LoginController::class, 'showLoginForm'])->name('login');
-Route::post('/login', [LoginController::class, 'login'])->name('login.post'); // Tambah name
+Route::post('/login', [LoginController::class, 'login'])->name('login.post');
 Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
 
 // Protected Routes
