@@ -35,7 +35,7 @@
                         <th>Kurir</th>
                         <th>Kode</th>
                         <th>Total Nilai</th>
-                        <th>Status</th>
+                        {{-- <th>Status</th> --}}
                         <th>Detail</th>
                     </tr>
                 </thead>
@@ -78,7 +78,7 @@
                         <td>
                             <h5 class="mb-0">{{ number_format($ranking->total_nilai, 4) }}</h5>
                         </td>
-                        <td>
+                        {{-- <td>
                             @if($ranking->status == '⭐ Kurir Terbaik')
                                 <span class="badge bg-warning fs-6 p-2">
                                     <i class="fas fa-star"></i> Kurir Terbaik
@@ -92,7 +92,7 @@
                                     <i class="fas fa-exclamation-triangle"></i> Perlu Evaluasi
                                 </span>
                             @endif
-                        </td>
+                        </td> --}}
                         <td>
                             <button type="button" class="btn btn-sm btn-info" data-bs-toggle="modal" 
                                     data-bs-target="#detailModal{{ $ranking->id }}">
@@ -166,7 +166,7 @@
                                 <th width="40%">Ranking</th>
                                 <td><strong>#{{ $ranking->ranking }}</strong></td>
                             </tr>
-                            <tr>
+                            {{-- <tr>
                                 <th>Status</th>
                                 <td>
                                     @if($ranking->status == '⭐ Kurir Terbaik')
@@ -177,7 +177,7 @@
                                         <span class="badge bg-danger">Perlu Evaluasi</span>
                                     @endif
                                 </td>
-                            </tr>
+                            </tr> --}}
                             <tr>
                                 <th>Periode</th>
                                 <td>{{ $ranking->periode }}</td>

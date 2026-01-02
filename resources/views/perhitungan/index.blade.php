@@ -103,7 +103,7 @@
                 <li>Hitung nilai akhir: Nilai = Utility × Bobot</li>
                 <li>Jumlahkan nilai semua kriteria untuk setiap kurir</li>
                 <li>Urutkan berdasarkan total nilai tertinggi</li>
-                <li>Tentukan status: ⭐ Kurir Terbaik, Baik, atau Perlu Evaluasi</li>
+                {{-- <li>Tentukan status: ⭐ Kurir Terbaik, Baik, atau Perlu Evaluasi</li> --}}
             </ol>
         </div>
     </div>

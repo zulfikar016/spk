@@ -94,12 +94,12 @@
                         </a>
                     </li>
 
-                    {{-- <li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link {{ Request::is('laporan*') ? 'active' : '' }}"
                            href="{{ route('laporan.index') }}">
                             <i class="fas fa-file-pdf me-2"></i> Laporan
                         </a>
-                    </li> --}}
+                    </li>
 
                     {{-- @if(auth()->user()->role === 'admin' || auth()->user()->role === 'manager')
                     <li class="nav-item">
