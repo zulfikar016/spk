@@ -113,7 +113,7 @@
                         <div class="col-6">
                             <div class="card border">
                                 <div class="card-body p-2">
-                                    <small><i class="fas fa-chart-pie text-success"></i> Ringkasan</small>
+                                    <small><i class="fas fa-chart-pie text-success"></i>Ringkasan</small>
                                     <p class="mb-0 small text-muted">1-2 halaman</p>
                                 </div>
                             </div>
@@ -125,3 +125,4 @@
     </div>
 </div>
 @endsection
+
