@@ -1,0 +1,5 @@
+*
+!private/
+!private_2/
+!public/
+!.gitignore
